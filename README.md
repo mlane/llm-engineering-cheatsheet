@@ -64,7 +64,7 @@ Ask for output formats explicitly.
 
 Controls randomness. Range: `0.0` to `2.0`.
 
-- `0.0` → deterministic, repeatable
+- `0.0` → more deterministic, repeatable
 - `0.2 – 0.5` → reliable tasks (Ng recommendation)
 - `0.7` → balanced (OpenAI default)
 - `1.0+` → creative, less reliable
