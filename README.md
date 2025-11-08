@@ -219,4 +219,4 @@ print(response.choices[0].message.content)
 
 ## Final Thought
 
-This guide helps you stay grounded when everything else is changing. Focus on clarity. Prompt with intent. And always think like an engineer.
+This guide helps you stay grounded when everything else is changing. Focus on clarity. Prompt with intent. And always [think like an engineer](https://github.com/mlane/builders-in-the-loop).
