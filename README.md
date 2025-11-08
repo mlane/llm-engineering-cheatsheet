@@ -165,11 +165,11 @@ LLM success isn’t about perfection — it’s about clarity, consistency, and 
 
 ## Debugging Checklist (When Output Fails)
 
-- ❓ Is the **task clearly stated**?
-- 🧩 Are you using the right **prompting pattern**?
-- 🧠 Is there a clear **role and structure**?
-- 🧱 Could the context window be too full?
-- 📣 Try asking the model: _“Why did you respond this way?”_
+- Is the **task clearly stated**?
+- Are you using the right **prompting pattern**?
+- Is there a clear **role and structure**?
+- Could the context window be too full?
+- Try asking the model: _“Why did you respond this way?”_
 
 ---
 
