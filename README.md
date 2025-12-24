@@ -1,8 +1,8 @@
 # LLM Engineering Cheatsheet
 
-A timeless guide to **thinking and building like a prompt engineer**. This cheatsheet focuses on core principles and patterns that apply across any model, provider, or tool — whether you're using OpenAI, Claude, Llama, or something that doesn't exist yet.
+A timeless guide to **thinking and building like a prompt engineer**. This cheatsheet focuses on core principles and patterns that apply across any model, provider, or tool - whether you're using OpenAI, Claude, Llama, or something that doesn't exist yet.
 
-> This is not a cookbook or quickstart. It's a mindset guide — built for those who want to reason clearly and build reliably with LLMs.
+> This is not a cookbook or quickstart. It's a mindset guide - built for those who want to reason clearly and build reliably with LLMs.
 
 ---
 
@@ -105,7 +105,7 @@ Day 1:
 - Be **aware of token limits** (e.g. 4k, 8k, 128k)
 - Use **summarization** for long chat histories
 - Drop irrelevant history when possible
-- **Explicit > implicit** — don't assume the model remembers everything
+- **Explicit > implicit** - don't assume the model remembers everything
 - Fewer tokens = faster responses and lower cost
 - Use tools like [OpenAI Tokenizer](https://platform.openai.com/tokenizer) to inspect prompt size
 
@@ -117,20 +117,20 @@ The best results come when you treat LLMs as tools that **augment your thinking*
 
 ### 1. Use AI for Fast, Focused Tasks
 
-AI thrives when the task is something a human could do in a second or two — things like renaming files, summarizing short content, or generating scaffolding. Don’t force it to solve problems that are too vague or complex. **Break hard problems into small, clear ones.** That’s when AI shines.
+AI thrives when the task is something a human could do in a second or two - things like renaming files, summarizing short content, or generating scaffolding. Don’t force it to solve problems that are too vague or complex. **Break hard problems into small, clear ones.** That’s when AI shines.
 
-> _This is aligned with Andrew Ng’s “One-Second Rule” — tasks that a human can perform in under one second are great candidates for automation._
+> _This is aligned with Andrew Ng’s “One-Second Rule” - tasks that a human can perform in under one second are great candidates for automation._
 
 ### 2. Prioritize Accuracy, But Accept Imperfection
 
-When you evaluate a model's performance, **accuracy is key** — but perfect accuracy is not realistic. Ambiguity, nuance, and subjectivity are baked into language. Instead of aiming for 100%, aim for **consistent and explainable behavior**, and iterate. Treat errors as feedback loops, not failures.  
-_(In practice, many real-world tasks operate safely with 70–90% accuracy — just make sure you know your risk tolerance.)_
+When you evaluate a model's performance, **accuracy is key** - but perfect accuracy is not realistic. Ambiguity, nuance, and subjectivity are baked into language. Instead of aiming for 100%, aim for **consistent and explainable behavior**, and iterate. Treat errors as feedback loops, not failures.  
+_(In practice, many real-world tasks operate safely with 70–90% accuracy - just make sure you know your risk tolerance.)_
 
 > _Andrew Ng emphasizes setting high but achievable accuracy standards, and treating improvement as an ongoing process._
 
 ### 3. You and the LLM Are Partners
 
-Don't outsource your learning. Let the LLM **guide, question, and collaborate** — not do everything for you. Ask it for scaffolding, instructions, or alternatives, then build it yourself. That way, you stay in control and deepen your understanding. **If you can't maintain the code later, you're not really building.**
+Don't outsource your learning. Let the LLM **guide, question, and collaborate** - not do everything for you. Ask it for scaffolding, instructions, or alternatives, then build it yourself. That way, you stay in control and deepen your understanding. **If you can't maintain the code later, you're not really building.**
 
 > _Experts recommend a human-in-the-loop mindset where you learn with the AI, not through it._
 
@@ -147,7 +147,7 @@ LLM output is fuzzy. Define quality like this:
 
 ### Perspective Shift
 
-LLM success isn’t about perfection — it’s about clarity, consistency, and feedback loops.\
+LLM success isn’t about perfection - it’s about clarity, consistency, and feedback loops.\
 **Reliable > perfect.** Iterate like a product, not like a test.
 
 ---
@@ -175,7 +175,7 @@ LLM success isn’t about perfection — it’s about clarity, consistency, and 
 
 ## Structured Output & Tool Use (Advanced)
 
-Some models support **function calling** or **structured tool use** — great for API responses or JSON output.
+Some models support **function calling** or **structured tool use** - great for API responses or JSON output.
 
 > Example: OpenAI’s `function_call` or `response_format="json"`
 
