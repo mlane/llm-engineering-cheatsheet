@@ -203,7 +203,9 @@ client = OpenAI(
 response = client.chat.completions.create(
     model="gpt-4o",
     messages=[
-        {"role": "system", "content": "You are a concise technical writer."},
+        {
+            "role": "system", "content": "You are a concise technical writer."
+        },
         {
             "role": "user",
             "content": "Explain what a vector database is in simple terms.",
